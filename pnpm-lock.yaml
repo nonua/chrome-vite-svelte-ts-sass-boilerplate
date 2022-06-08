@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@crxjs/vite-plugin': 1.0.9
+  '@crxjs/vite-plugin': 1.0.10
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.48
   '@tsconfig/svelte': 3.0.0
   '@types/chrome': 0.0.189
@@ -16,7 +16,7 @@ specifiers:
   vite: 2.9.10
 
 devDependencies:
-  '@crxjs/vite-plugin': 1.0.9_vite@2.9.10
+  '@crxjs/vite-plugin': 1.0.10_vite@2.9.10
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.48_svelte@3.48.0+vite@2.9.10
   '@tsconfig/svelte': 3.0.0
   '@types/chrome': 0.0.189
@@ -321,8 +321,8 @@ packages:
     dev: true
     optional: true
 
-  /@crxjs/vite-plugin/1.0.9_vite@2.9.10:
-    resolution: {integrity: sha512-TsvXkfMHEKV62yiLtGxEZDzZ9qriqKOyBDam45vXU9f7frRYAn++8pzm7ZP/7ePT+dhEJu68s3k5gJJlckGPJg==}
+  /@crxjs/vite-plugin/1.0.10_vite@2.9.10:
+    resolution: {integrity: sha512-I/f77amFJB+qDFUSfZLeWLFLhd6Hh5Q8cY/Ecfr/agT0OLSQS0da/f7R4CoO4SlHeO3yc5MesKiWaeWDQ6pdzg==}
     engines: {node: '>=14'}
     peerDependencies:
       vite: ^2.9.0
