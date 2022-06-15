@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@crxjs/vite-plugin': 1.0.11
+  '@crxjs/vite-plugin': 1.0.12
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.48
   '@tsconfig/svelte': 3.0.0
   '@types/chrome': 0.0.190
@@ -16,7 +16,7 @@ specifiers:
   vite: 2.9.12
 
 devDependencies:
-  '@crxjs/vite-plugin': 1.0.11_vite@2.9.12
+  '@crxjs/vite-plugin': 1.0.12_vite@2.9.12
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.48_svelte@3.48.0+vite@2.9.12
   '@tsconfig/svelte': 3.0.0
   '@types/chrome': 0.0.190
@@ -321,8 +321,8 @@ packages:
     dev: true
     optional: true
 
-  /@crxjs/vite-plugin/1.0.11_vite@2.9.12:
-    resolution: {integrity: sha512-MyWQIQtyuVlTFGRryrvimlgvbfC/3hw7jTMMjC3+zjLzQog05qxI9a8wDvO6iVZ+vSv+RuDttEAPom9ZBS+Nkw==}
+  /@crxjs/vite-plugin/1.0.12_vite@2.9.12:
+    resolution: {integrity: sha512-v0cQHs+dnJaxL6EXaiAgTc4mzd+ZhmtwM264RQl3j2dwLS2iha7xx4pNm2j71GB+IqRrurtM35SkvG28Xbbo3Q==}
     engines: {node: '>=14'}
     peerDependencies:
       vite: ^2.9.0
@@ -1577,7 +1577,7 @@ packages:
     dev: true
 
   /uberproto/1.2.0:
-    resolution: {integrity: sha1-YdTqsCT5CcTm6lK+hnxIlKS+63Y=}
+    resolution: {integrity: sha512-pGtPAQmLwh+R9w81WVHzui1FfedpQWQpiaIIfPCwhtsBez4q6DYbJFfyXPVHPUTNFnedAvNEnkoFiLuhXIR94w==}
     dev: true
 
   /universalify/2.0.0:
