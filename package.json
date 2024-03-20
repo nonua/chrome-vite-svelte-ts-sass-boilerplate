@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "1.0.14",
-    "@sveltejs/vite-plugin-svelte": "2.5.3",
+    "@sveltejs/vite-plugin-svelte": "3.0.2",
     "@tsconfig/svelte": "3.0.0",
     "@types/chrome": "0.0.263",
     "@types/node": "18.11.10",
