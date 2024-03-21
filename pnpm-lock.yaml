@@ -12,7 +12,7 @@ specifiers:
   svelte-check: 3.6.8
   svelte-preprocess: 4.10.7
   tslib: 2.6.2
-  typescript: 4.9.5
+  typescript: 5.4.3
   vite: 4.5.2
 
 devDependencies:
@@ -25,9 +25,9 @@ devDependencies:
   sass: 1.72.0
   svelte: 4.2.12
   svelte-check: 3.6.8_sass@1.72.0+svelte@4.2.12
-  svelte-preprocess: 4.10.7_7hchbujr5i7h6jcobw5wl454p4
+  svelte-preprocess: 4.10.7_mlzupn4rwsyrzdru7nhzlec7sa
   tslib: 2.6.2
-  typescript: 4.9.5
+  typescript: 5.4.3
   vite: 4.5.2_6jw2d36qhvrnve3v62ollaiwfu
 
 packages:
@@ -1649,8 +1649,8 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.2.12
-      svelte-preprocess: 5.1.3_ijmltmrlvpqjbnsvp2vr55ur5q
-      typescript: 5.4.2
+      svelte-preprocess: 5.1.3_mlzupn4rwsyrzdru7nhzlec7sa
+      typescript: 5.4.3
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -1672,7 +1672,7 @@ packages:
       svelte: 4.2.12
     dev: true
 
-  /svelte-preprocess/4.10.7_7hchbujr5i7h6jcobw5wl454p4:
+  /svelte-preprocess/4.10.7_mlzupn4rwsyrzdru7nhzlec7sa:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1721,10 +1721,10 @@ packages:
       sorcery: 0.10.0
       strip-indent: 3.0.0
       svelte: 4.2.12
-      typescript: 4.9.5
+      typescript: 5.4.3
     dev: true
 
-  /svelte-preprocess/5.1.3_ijmltmrlvpqjbnsvp2vr55ur5q:
+  /svelte-preprocess/5.1.3_mlzupn4rwsyrzdru7nhzlec7sa:
     resolution: {integrity: sha512-xxAkmxGHT+J/GourS5mVJeOXZzne1FR5ljeOUAMXUkfEhkLEllRreXpbl3dIYJlcJRfL1LO1uIAPpBpBfiqGPw==}
     engines: {node: '>= 16.0.0', pnpm: ^8.0.0}
     requiresBuild: true
@@ -1769,7 +1769,7 @@ packages:
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.2.12
-      typescript: 5.4.2
+      typescript: 5.4.3
     dev: true
 
   /svelte/4.2.12:
@@ -1809,14 +1809,8 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /typescript/4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
-    dev: true
-
-  /typescript/5.4.2:
-    resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
+  /typescript/5.4.3:
+    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
