@@ -13,7 +13,7 @@
     "@sveltejs/vite-plugin-svelte": "3.0.2",
     "@tsconfig/svelte": "5.0.2",
     "@types/chrome": "0.0.263",
-    "@types/node": "18.19.26",
+    "@types/node": "20.11.30",
     "prettier": "3.2.5",
     "sass": "1.72.0",
     "svelte": "4.2.12",
