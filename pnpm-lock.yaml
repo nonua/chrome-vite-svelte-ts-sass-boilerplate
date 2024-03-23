@@ -13,11 +13,11 @@ specifiers:
   svelte-preprocess: 5.1.3
   tslib: 2.6.2
   typescript: 5.4.3
-  vite: 5.2.3
+  vite: 5.2.4
 
 devDependencies:
-  '@crxjs/vite-plugin': 1.0.14_vite@5.2.3
-  '@sveltejs/vite-plugin-svelte': 3.0.2_svelte@4.2.12+vite@5.2.3
+  '@crxjs/vite-plugin': 1.0.14_vite@5.2.4
+  '@sveltejs/vite-plugin-svelte': 3.0.2_svelte@4.2.12+vite@5.2.4
   '@tsconfig/svelte': 5.0.2
   '@types/chrome': 0.0.263
   '@types/node': 20.11.30
@@ -28,7 +28,7 @@ devDependencies:
   svelte-preprocess: 5.1.3_mlzupn4rwsyrzdru7nhzlec7sa
   tslib: 2.6.2
   typescript: 5.4.3
-  vite: 5.2.3_duumn6wgefiuywu4qhpnzf3id4
+  vite: 5.2.4_duumn6wgefiuywu4qhpnzf3id4
 
 packages:
 
@@ -329,7 +329,7 @@ packages:
     dev: true
     optional: true
 
-  /@crxjs/vite-plugin/1.0.14_vite@5.2.3:
+  /@crxjs/vite-plugin/1.0.14_vite@5.2.4:
     resolution: {integrity: sha512-emOueVCqFRFmpcfT80Xsm4mfuFw9VSp5GY4eh5qeLDeiP81g0hddlobVQCo0pE2ZvNnWbyhLrXEYAaMAXjNL6A==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -349,7 +349,7 @@ packages:
       picocolors: 1.0.0
       react-refresh: 0.13.0
       rollup: 2.75.6
-      vite: 5.2.3_duumn6wgefiuywu4qhpnzf3id4
+      vite: 5.2.4_duumn6wgefiuywu4qhpnzf3id4
     optionalDependencies:
       '@vitejs/plugin-react': 1.3.2
     transitivePeerDependencies:
@@ -762,7 +762,7 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/vite-plugin-svelte-inspector/2.0.0_eswim6inga7w3lmo5n7mytagjm:
+  /@sveltejs/vite-plugin-svelte-inspector/2.0.0_fi4jjcmeh2gi7xox27ou7spsni:
     resolution: {integrity: sha512-gjr9ZFg1BSlIpfZ4PRewigrvYmHWbDrq2uvvPB1AmTWKuM+dI1JXQSUu2pIrYLb/QncyiIGkFDFKTwJ0XqQZZg==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
@@ -770,30 +770,30 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.0.2_svelte@4.2.12+vite@5.2.3
+      '@sveltejs/vite-plugin-svelte': 3.0.2_svelte@4.2.12+vite@5.2.4
       debug: 4.3.4
       svelte: 4.2.12
-      vite: 5.2.3_duumn6wgefiuywu4qhpnzf3id4
+      vite: 5.2.4_duumn6wgefiuywu4qhpnzf3id4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/3.0.2_svelte@4.2.12+vite@5.2.3:
+  /@sveltejs/vite-plugin-svelte/3.0.2_svelte@4.2.12+vite@5.2.4:
     resolution: {integrity: sha512-MpmF/cju2HqUls50WyTHQBZUV3ovV/Uk8k66AN2gwHogNAG8wnW8xtZDhzNBsFJJuvmq1qnzA5kE7YfMJNFv2Q==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0_eswim6inga7w3lmo5n7mytagjm
+      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0_fi4jjcmeh2gi7xox27ou7spsni
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.8
       svelte: 4.2.12
       svelte-hmr: 0.15.3_svelte@4.2.12
-      vite: 5.2.3_duumn6wgefiuywu4qhpnzf3id4
-      vitefu: 0.2.5_vite@5.2.3
+      vite: 5.2.4_duumn6wgefiuywu4qhpnzf3id4
+      vitefu: 0.2.5_vite@5.2.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -999,7 +999,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /code-red/1.0.4:
@@ -1242,14 +1242,6 @@ packages:
   /fs.realpath/1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
-
-  /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /fsevents/2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -1632,7 +1624,7 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rollup/4.13.0:
@@ -1891,8 +1883,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /vite/5.2.3_duumn6wgefiuywu4qhpnzf3id4:
-    resolution: {integrity: sha512-+i1oagbvkVIhEy9TnEV+fgXsng13nZM90JQbrcPrf6DvW2mXARlz+DK7DLiDP+qeKoD1FCVx/1SpFL1CLq9Mhw==}
+  /vite/5.2.4_duumn6wgefiuywu4qhpnzf3id4:
+    resolution: {integrity: sha512-vjFghvHWidBTinu5TCymJk/lRHlR5ljqB83yugr0HA1xspUPdOZHqbqDLnZ8f9/jINrtFHTCYYyIUi+o+Q5iyg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -1928,7 +1920,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu/0.2.5_vite@5.2.3:
+  /vitefu/0.2.5_vite@5.2.4:
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -1936,7 +1928,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.2.3_duumn6wgefiuywu4qhpnzf3id4
+      vite: 5.2.4_duumn6wgefiuywu4qhpnzf3id4
     dev: true
 
   /wrappy/1.0.2:
