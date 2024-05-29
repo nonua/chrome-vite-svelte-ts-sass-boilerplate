@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@crxjs/vite-plugin': 1.0.14
-  '@sveltejs/vite-plugin-svelte': 3.1.0
+  '@sveltejs/vite-plugin-svelte': 3.1.1
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.268
   '@types/node': 20.12.12
@@ -17,7 +17,7 @@ specifiers:
 
 devDependencies:
   '@crxjs/vite-plugin': 1.0.14_vite@5.2.12
-  '@sveltejs/vite-plugin-svelte': 3.1.0_svelte@4.2.17+vite@5.2.12
+  '@sveltejs/vite-plugin-svelte': 3.1.1_svelte@4.2.17+vite@5.2.12
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.268
   '@types/node': 20.12.12
@@ -717,15 +717,15 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/vite-plugin-svelte-inspector/2.0.0_oasbmzf6krbmcuqsqrms4z4p3q:
-    resolution: {integrity: sha512-gjr9ZFg1BSlIpfZ4PRewigrvYmHWbDrq2uvvPB1AmTWKuM+dI1JXQSUu2pIrYLb/QncyiIGkFDFKTwJ0XqQZZg==}
+  /@sveltejs/vite-plugin-svelte-inspector/2.1.0_mu65q3hdvsvu4qfr7yjdnzimzy:
+    resolution: {integrity: sha512-9QX28IymvBlSCqsCll5t0kQVxipsfhFFL+L2t3nTWfXnddYwxBuAEtTtlaVQpRz9c37BhJjltSeY4AJSC03SSg==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
       '@sveltejs/vite-plugin-svelte': ^3.0.0
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.1.0_svelte@4.2.17+vite@5.2.12
+      '@sveltejs/vite-plugin-svelte': 3.1.1_svelte@4.2.17+vite@5.2.12
       debug: 4.3.4
       svelte: 4.2.17
       vite: 5.2.12_q232fjyrpkfhcrmg5coltkhjqi
@@ -733,18 +733,18 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/3.1.0_svelte@4.2.17+vite@5.2.12:
-    resolution: {integrity: sha512-sY6ncCvg+O3njnzbZexcVtUqOBE3iYmQPJ9y+yXSkOwG576QI/xJrBnQSRXFLGwJNBa0T78JEKg5cIR0WOAuUw==}
+  /@sveltejs/vite-plugin-svelte/3.1.1_svelte@4.2.17+vite@5.2.12:
+    resolution: {integrity: sha512-rimpFEAboBBHIlzISibg94iP09k/KYdHgVhJlcsTfn7KMBhc70jFX/GRWkRdFCc2fdnk+4+Bdfej23cMDnJS6A==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0_oasbmzf6krbmcuqsqrms4z4p3q
+      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0_mu65q3hdvsvu4qfr7yjdnzimzy
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       svelte: 4.2.17
       svelte-hmr: 0.16.0_svelte@4.2.17
       vite: 5.2.12_q232fjyrpkfhcrmg5coltkhjqi
@@ -1375,6 +1375,12 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: true
+
+  /magic-string/0.30.10:
+    resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /magic-string/0.30.9:
