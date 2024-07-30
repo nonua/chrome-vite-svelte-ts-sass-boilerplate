@@ -9,7 +9,7 @@ specifiers:
   prettier: 3.3.3
   sass: 1.77.8
   svelte: 4.2.18
-  svelte-check: 3.8.4
+  svelte-check: 3.8.5
   svelte-preprocess: 6.0.2
   tslib: 2.6.3
   typescript: 5.5.4
@@ -24,7 +24,7 @@ devDependencies:
   prettier: 3.3.3
   sass: 1.77.8
   svelte: 4.2.18
-  svelte-check: 3.8.4_sass@1.77.8+svelte@4.2.18
+  svelte-check: 3.8.5_sass@1.77.8+svelte@4.2.18
   svelte-preprocess: 6.0.2_gur5ulcxdvdq3co2yzh2ne3eyi
   tslib: 2.6.3
   typescript: 5.5.4
@@ -1674,15 +1674,15 @@ packages:
     dev: true
     optional: true
 
-  /svelte-check/3.8.4_sass@1.77.8+svelte@4.2.18:
-    resolution: {integrity: sha512-61aHMkdinWyH8BkkTX9jPLYxYzaAAz/FK/VQqdr2FiCQQ/q04WCwDlpGbHff1GdrMYTmW8chlTFvRWL9k0A8vg==}
+  /svelte-check/3.8.5_sass@1.77.8+svelte@4.2.18:
+    resolution: {integrity: sha512-3OGGgr9+bJ/+1nbPgsvulkLC48xBsqsgtc8Wam281H4G9F5v3mYGa2bHRsPuwHC5brKl4AxJH95QF73kmfihGQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 3.5.3
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       sade: 1.8.1
       svelte: 4.2.18
       svelte-preprocess: 5.1.4_gur5ulcxdvdq3co2yzh2ne3eyi
