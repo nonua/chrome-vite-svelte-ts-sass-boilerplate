@@ -5,7 +5,7 @@ specifiers:
   '@sveltejs/vite-plugin-svelte': 3.1.1
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.270
-  '@types/node': 20.15.0
+  '@types/node': 20.16.0
   prettier: 3.3.3
   sass: 1.77.8
   svelte: 4.2.18
@@ -20,7 +20,7 @@ devDependencies:
   '@sveltejs/vite-plugin-svelte': 3.1.1_svelte@4.2.18+vite@5.4.1
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.270
-  '@types/node': 20.15.0
+  '@types/node': 20.16.0
   prettier: 3.3.3
   sass: 1.77.8
   svelte: 4.2.18
@@ -28,7 +28,7 @@ devDependencies:
   svelte-preprocess: 6.0.2_gur5ulcxdvdq3co2yzh2ne3eyi
   tslib: 2.6.3
   typescript: 5.5.4
-  vite: 5.4.1_f7qzoikan2bs772jveusxkz2ti
+  vite: 5.4.1_hif74pyggoiifrtheprk37ym6y
 
 packages:
 
@@ -340,7 +340,7 @@ packages:
       picocolors: 1.0.0
       react-refresh: 0.13.0
       rollup: 2.75.6
-      vite: 5.4.1_f7qzoikan2bs772jveusxkz2ti
+      vite: 5.4.1_hif74pyggoiifrtheprk37ym6y
     optionalDependencies:
       '@vitejs/plugin-react': 1.3.2
     transitivePeerDependencies:
@@ -728,7 +728,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 3.1.1_svelte@4.2.18+vite@5.4.1
       debug: 4.3.4
       svelte: 4.2.18
-      vite: 5.4.1_f7qzoikan2bs772jveusxkz2ti
+      vite: 5.4.1_hif74pyggoiifrtheprk37ym6y
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -747,7 +747,7 @@ packages:
       magic-string: 0.30.10
       svelte: 4.2.18
       svelte-hmr: 0.16.0_svelte@4.2.18
-      vite: 5.4.1_f7qzoikan2bs772jveusxkz2ti
+      vite: 5.4.1_hif74pyggoiifrtheprk37ym6y
       vitefu: 0.2.5_vite@5.4.1
     transitivePeerDependencies:
       - supports-color
@@ -782,10 +782,10 @@ packages:
     resolution: {integrity: sha512-OP6L9VuZNdskgNN3zFQQ54ceYD8OLq5IbqO4VK91ORLfOm7WdT/CiT/pHEBSQEqCInJ2y3O6iCm/zGtPElpgJQ==}
     dev: true
 
-  /@types/node/20.15.0:
-    resolution: {integrity: sha512-eQf4OkH6gA9v1W0iEpht/neozCsZKMTK+C4cU6/fv7wtJCCL8LEQ4hie2Ln8ZP/0YYM2xGj7//f8xyqItkJ6QA==}
+  /@types/node/20.16.0:
+    resolution: {integrity: sha512-vDxceJcoZhIVh67S568bm1UGZO0DX0hpplJZxzeXMKwIPLn190ec5RRxQ69BKhX44SUGIxxgMdDY557lGLKprQ==}
     dependencies:
-      undici-types: 6.13.0
+      undici-types: 6.19.6
     dev: true
 
   /@types/pug/2.0.6:
@@ -1846,8 +1846,8 @@ packages:
     resolution: {integrity: sha512-pGtPAQmLwh+R9w81WVHzui1FfedpQWQpiaIIfPCwhtsBez4q6DYbJFfyXPVHPUTNFnedAvNEnkoFiLuhXIR94w==}
     dev: true
 
-  /undici-types/6.13.0:
-    resolution: {integrity: sha512-xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==}
+  /undici-types/6.19.6:
+    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
     dev: true
 
   /universalify/2.0.0:
@@ -1855,7 +1855,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /vite/5.4.1_f7qzoikan2bs772jveusxkz2ti:
+  /vite/5.4.1_hif74pyggoiifrtheprk37ym6y:
     resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -1886,7 +1886,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.15.0
+      '@types/node': 20.16.0
       esbuild: 0.21.5
       postcss: 8.4.41
       rollup: 4.13.0
@@ -1903,7 +1903,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.4.1_f7qzoikan2bs772jveusxkz2ti
+      vite: 5.4.1_hif74pyggoiifrtheprk37ym6y
     dev: true
 
   /wrappy/1.0.2:
