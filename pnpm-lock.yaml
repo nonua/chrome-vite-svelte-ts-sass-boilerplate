@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@crxjs/vite-plugin': 1.0.14
-  '@sveltejs/vite-plugin-svelte': 3.1.1
+  '@sveltejs/vite-plugin-svelte': 3.1.2
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.270
   '@types/node': 20.16.1
@@ -17,7 +17,7 @@ specifiers:
 
 devDependencies:
   '@crxjs/vite-plugin': 1.0.14_vite@5.4.2
-  '@sveltejs/vite-plugin-svelte': 3.1.1_svelte@4.2.18+vite@5.4.2
+  '@sveltejs/vite-plugin-svelte': 3.1.2_svelte@4.2.18+vite@5.4.2
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.270
   '@types/node': 20.16.1
@@ -741,7 +741,7 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/vite-plugin-svelte-inspector/2.1.0_ei2aeyjk5i6mzqykeqmmvtx3g4:
+  /@sveltejs/vite-plugin-svelte-inspector/2.1.0_iswt5hq62zcwsyxczzbyowkida:
     resolution: {integrity: sha512-9QX28IymvBlSCqsCll5t0kQVxipsfhFFL+L2t3nTWfXnddYwxBuAEtTtlaVQpRz9c37BhJjltSeY4AJSC03SSg==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
@@ -749,7 +749,7 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.1.1_svelte@4.2.18+vite@5.4.2
+      '@sveltejs/vite-plugin-svelte': 3.1.2_svelte@4.2.18+vite@5.4.2
       debug: 4.3.4
       svelte: 4.2.18
       vite: 5.4.2_7z5ec2yc5ehez5ka52sjxo67im
@@ -757,14 +757,14 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/3.1.1_svelte@4.2.18+vite@5.4.2:
-    resolution: {integrity: sha512-rimpFEAboBBHIlzISibg94iP09k/KYdHgVhJlcsTfn7KMBhc70jFX/GRWkRdFCc2fdnk+4+Bdfej23cMDnJS6A==}
+  /@sveltejs/vite-plugin-svelte/3.1.2_svelte@4.2.18+vite@5.4.2:
+    resolution: {integrity: sha512-Txsm1tJvtiYeLUVRNqxZGKR/mI+CzuIQuc2gn+YCs9rMTowpNZ2Nqt53JdL8KF9bLhAf2ruR/dr9eZCwdTriRA==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0_ei2aeyjk5i6mzqykeqmmvtx3g4
+      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0_iswt5hq62zcwsyxczzbyowkida
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
