@@ -11,7 +11,7 @@ specifiers:
   svelte: 4.2.19
   svelte-check: 3.8.6
   svelte-preprocess: 6.0.2
-  tslib: 2.6.3
+  tslib: 2.7.0
   typescript: 5.5.4
   vite: 5.4.2
 
@@ -26,7 +26,7 @@ devDependencies:
   svelte: 4.2.19
   svelte-check: 3.8.6_sass@1.77.8+svelte@4.2.19
   svelte-preprocess: 6.0.2_trtl7ssw2aw43xeopx2nv3komm
-  tslib: 2.6.3
+  tslib: 2.7.0
   typescript: 5.5.4
   vite: 5.4.2_7z5ec2yc5ehez5ka52sjxo67im
 
@@ -958,7 +958,7 @@ packages:
       htmlparser2: 8.0.1
       parse5: 7.0.0
       parse5-htmlparser2-tree-adapter: 7.0.0
-      tslib: 2.6.3
+      tslib: 2.7.0
     dev: true
 
   /chokidar/3.5.3:
@@ -1859,8 +1859,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /tslib/2.6.3:
-    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+  /tslib/2.7.0:
+    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
     dev: true
 
   /typescript/5.5.4:
