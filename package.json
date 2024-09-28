@@ -15,7 +15,7 @@
     "@types/chrome": "0.0.272",
     "@types/node": "20.16.10",
     "prettier": "3.3.3",
-    "sass": "1.79.3",
+    "sass": "1.79.4",
     "svelte": "4.2.19",
     "svelte-check": "4.0.4",
     "svelte-preprocess": "6.0.3",
