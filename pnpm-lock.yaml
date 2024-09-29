@@ -4,7 +4,7 @@ specifiers:
   '@crxjs/vite-plugin': 1.0.14
   '@sveltejs/vite-plugin-svelte': 3.1.2
   '@tsconfig/svelte': 5.0.4
-  '@types/chrome': 0.0.272
+  '@types/chrome': 0.0.273
   '@types/node': 20.16.10
   prettier: 3.3.3
   sass: 1.79.4
@@ -19,7 +19,7 @@ devDependencies:
   '@crxjs/vite-plugin': 1.0.14_vite@5.4.8
   '@sveltejs/vite-plugin-svelte': 3.1.2_svelte@4.2.19+vite@5.4.8
   '@tsconfig/svelte': 5.0.4
-  '@types/chrome': 0.0.272
+  '@types/chrome': 0.0.273
   '@types/node': 20.16.10
   prettier: 3.3.3
   sass: 1.79.4
@@ -781,8 +781,8 @@ packages:
     resolution: {integrity: sha512-BV9NplVgLmSi4mwKzD8BD/NQ8erOY/nUE/GpgWe2ckx+wIQF5RyRirn/QsSSCPeulVpc3RA/iJt6DpfTIZps0Q==}
     dev: true
 
-  /@types/chrome/0.0.272:
-    resolution: {integrity: sha512-9cxDmmgyhXV8gsZvlRjqaDizNjIjbV0spsR0fIEaQUoHtbl9D8VkTOLyONgiBKK+guR38x5eMO3E3avUYOXwcQ==}
+  /@types/chrome/0.0.273:
+    resolution: {integrity: sha512-6Wp4GO07GLvti13Rf/RpYG+0COSJDOLE4iq3g1+whn1SNGUVnv6vbXqSa/WFbuVpvN1lcBLiZ40+gSeWmKb+eA==}
     dependencies:
       '@types/filesystem': 0.0.32
       '@types/har-format': 1.2.8
