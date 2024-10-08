@@ -12,7 +12,7 @@ specifiers:
   svelte-check: 4.0.4
   svelte-preprocess: 6.0.3
   tslib: 2.7.0
-  typescript: 5.6.2
+  typescript: 5.6.3
   vite: 5.4.8
 
 devDependencies:
@@ -24,10 +24,10 @@ devDependencies:
   prettier: 3.3.3
   sass: 1.79.4
   svelte: 4.2.19
-  svelte-check: 4.0.4_zlpycda6y77l34kjzoppeg3pvu
-  svelte-preprocess: 6.0.3_56j3zr5pfpe3sztj2av5fjeclu
+  svelte-check: 4.0.4_5z4qrdc57uioorbuigvrllylnu
+  svelte-preprocess: 6.0.3_cmkgac6jzbr6jfjaqawyx4dtmi
   tslib: 2.7.0
-  typescript: 5.6.2
+  typescript: 5.6.3
   vite: 5.4.8_iydicsdgodfqtuxw4yab3u26ni
 
 packages:
@@ -1548,7 +1548,7 @@ packages:
     dev: true
     optional: true
 
-  /svelte-check/4.0.4_zlpycda6y77l34kjzoppeg3pvu:
+  /svelte-check/4.0.4_5z4qrdc57uioorbuigvrllylnu:
     resolution: {integrity: sha512-AcHWIPuZb1mh/jKoIrww0ebBPpAvwWd1bfXCnwC2dx4OkydNMaiG//+Xnry91RJMHFH7CiE+6Y2p332DRIaOXQ==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
@@ -1562,7 +1562,7 @@ packages:
       picocolors: 1.0.1
       sade: 1.8.1
       svelte: 4.2.19
-      typescript: 5.6.2
+      typescript: 5.6.3
     transitivePeerDependencies:
       - picomatch
     dev: true
@@ -1576,7 +1576,7 @@ packages:
       svelte: 4.2.19
     dev: true
 
-  /svelte-preprocess/6.0.3_56j3zr5pfpe3sztj2av5fjeclu:
+  /svelte-preprocess/6.0.3_cmkgac6jzbr6jfjaqawyx4dtmi:
     resolution: {integrity: sha512-PLG2k05qHdhmRG7zR/dyo5qKvakhm8IJ+hD2eFRQmMLHp7X3eJnjeupUtvuRpbNiF31RjVw45W+abDwHEmP5OA==}
     engines: {node: '>= 18.0.0'}
     requiresBuild: true
@@ -1616,7 +1616,7 @@ packages:
     dependencies:
       sass: 1.79.4
       svelte: 4.2.19
-      typescript: 5.6.2
+      typescript: 5.6.3
     dev: true
 
   /svelte/4.2.19:
@@ -1656,8 +1656,8 @@ packages:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
     dev: true
 
-  /typescript/5.6.2:
-    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
+  /typescript/5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
