@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@crxjs/vite-plugin': 1.0.14
-  '@sveltejs/vite-plugin-svelte': 5.0.0
+  '@sveltejs/vite-plugin-svelte': 5.0.1
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.287
   '@types/node': 22.10.0
@@ -17,7 +17,7 @@ specifiers:
 
 devDependencies:
   '@crxjs/vite-plugin': 1.0.14_vite@6.0.0
-  '@sveltejs/vite-plugin-svelte': 5.0.0_svelte@5.2.8+vite@6.0.0
+  '@sveltejs/vite-plugin-svelte': 5.0.1_svelte@5.2.8+vite@6.0.0
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.287
   '@types/node': 22.10.0
@@ -899,15 +899,15 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/vite-plugin-svelte-inspector/3.0.0_pk4srlf2h4doolv6hopbae46we:
-    resolution: {integrity: sha512-hBxSYW/66989cq9dN248omD/ziskSdIV1NqfuueuAI1z6jGcg14k9Zd98pDIEnoA6wC9kWUGuQ6adzBbWwQyRg==}
+  /@sveltejs/vite-plugin-svelte-inspector/4.0.1_65bo6qfeoqry6gvhmdafsydln4:
+    resolution: {integrity: sha512-J/Nmb2Q2y7mck2hyCX4ckVHcR5tu2J+MtBEQqpDrrgELZ2uvraQcK/ioCV61AqkdXFgriksOKIceDcQmqnGhVw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22}
     peerDependencies:
-      '@sveltejs/vite-plugin-svelte': ^4.0.0-next.0||^4.0.0
-      svelte: ^5.0.0-next.96 || ^5.0.0
-      vite: ^5.0.0
+      '@sveltejs/vite-plugin-svelte': ^5.0.0
+      svelte: ^5.0.0
+      vite: ^6.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.0_svelte@5.2.8+vite@6.0.0
+      '@sveltejs/vite-plugin-svelte': 5.0.1_svelte@5.2.8+vite@6.0.0
       debug: 4.3.7
       svelte: 5.2.8
       vite: 6.0.0_iwieaunar6gru53tbiifintobi
@@ -915,14 +915,14 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/5.0.0_svelte@5.2.8+vite@6.0.0:
-    resolution: {integrity: sha512-/yc45GfWmQ20uG328Oeg4YH5/ygey8sPXwXU1rTEFE/RvSRiHGPHVxFFvSYlZ0S7/bLmmX6cr2Ys4le7ugQISw==}
+  /@sveltejs/vite-plugin-svelte/5.0.1_svelte@5.2.8+vite@6.0.0:
+    resolution: {integrity: sha512-D5l5+STmywGoLST07T9mrqqFFU+xgv5fqyTWM+VbxTvQ6jujNn4h3lQNCvlwVYs4Erov8i0K5Rwr3LQtmBYmBw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22}
     peerDependencies:
       svelte: ^5.0.0
       vite: ^6.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 3.0.0_pk4srlf2h4doolv6hopbae46we
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1_65bo6qfeoqry6gvhmdafsydln4
       debug: 4.3.7
       deepmerge: 4.3.1
       kleur: 4.1.5
