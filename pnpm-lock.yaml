@@ -9,7 +9,7 @@ specifiers:
   prettier: 3.4.1
   sass: 1.81.1
   svelte: 5.5.3
-  svelte-check: 4.1.0
+  svelte-check: 4.1.1
   svelte-preprocess: 6.0.3
   tslib: 2.8.1
   typescript: 5.7.2
@@ -24,7 +24,7 @@ devDependencies:
   prettier: 3.4.1
   sass: 1.81.1
   svelte: 5.5.3
-  svelte-check: 4.1.0_nskm5ni3jl2sztco47iomatu4m
+  svelte-check: 4.1.1_nskm5ni3jl2sztco47iomatu4m
   svelte-preprocess: 6.0.3_eqzfzqtcz7cil7hi5dq7gvbhai
   tslib: 2.8.1
   typescript: 5.7.2
@@ -1556,10 +1556,6 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
-  /picocolors/1.0.1:
-    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
-    dev: true
-
   /picocolors/1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
     dev: true
@@ -1718,8 +1714,8 @@ packages:
     dev: true
     optional: true
 
-  /svelte-check/4.1.0_nskm5ni3jl2sztco47iomatu4m:
-    resolution: {integrity: sha512-AflEZYqI578KuDZcpcorPSf597LStxlkN7XqXi38u09zlHODVKd7c+7OuubGzbhgGRUqNTdQCZ+Ga96iRXEf2g==}
+  /svelte-check/4.1.1_nskm5ni3jl2sztco47iomatu4m:
+    resolution: {integrity: sha512-NfaX+6Qtc8W/CyVGS/F7/XdiSSyXz+WGYA9ZWV3z8tso14V2vzjfXviKaTFEzB7g8TqfgO2FOzP6XT4ApSTUTw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -1729,7 +1725,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
       fdir: 6.3.0
-      picocolors: 1.0.1
+      picocolors: 1.1.1
       sade: 1.8.1
       svelte: 5.5.3
       typescript: 5.7.2
