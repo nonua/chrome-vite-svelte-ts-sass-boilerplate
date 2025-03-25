@@ -12,7 +12,7 @@
     "@crxjs/vite-plugin": "1.0.14",
     "@sveltejs/vite-plugin-svelte": "5.0.3",
     "@tsconfig/svelte": "5.0.4",
-    "@types/chrome": "0.0.310",
+    "@types/chrome": "0.0.312",
     "@types/node": "22.13.13",
     "prettier": "3.5.3",
     "sass": "1.86.0",
