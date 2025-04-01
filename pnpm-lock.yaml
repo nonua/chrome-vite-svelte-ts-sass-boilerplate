@@ -8,7 +8,7 @@ specifiers:
   '@types/node': 22.13.17
   prettier: 3.5.3
   sass: 1.86.1
-  svelte: 5.25.5
+  svelte: 5.25.6
   svelte-check: 4.1.5
   svelte-preprocess: 6.0.3
   tslib: 2.8.1
@@ -17,15 +17,15 @@ specifiers:
 
 devDependencies:
   '@crxjs/vite-plugin': 1.0.14_vite@6.2.4
-  '@sveltejs/vite-plugin-svelte': 5.0.3_svelte@5.25.5+vite@6.2.4
+  '@sveltejs/vite-plugin-svelte': 5.0.3_svelte@5.25.6+vite@6.2.4
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.313
   '@types/node': 22.13.17
   prettier: 3.5.3
   sass: 1.86.1
-  svelte: 5.25.5
-  svelte-check: 4.1.5_6ijsdwsosfszd5esp2wcghv2gy
-  svelte-preprocess: 6.0.3_etdsudpiuuvrbpohgw3mim3qtq
+  svelte: 5.25.6
+  svelte-check: 4.1.5_ef2moelm46zg2lsgwprme4bh6i
+  svelte-preprocess: 6.0.3_b6iijb7nfwse5xajq5yx4hxz3q
   tslib: 2.8.1
   typescript: 5.8.2
   vite: 6.2.4_rcwhyxjunlypzsc2hhyx6766oy
@@ -924,7 +924,7 @@ packages:
       acorn: 8.13.0
     dev: true
 
-  /@sveltejs/vite-plugin-svelte-inspector/4.0.1_xj5qugu6hq6na25ilu5x5rmrru:
+  /@sveltejs/vite-plugin-svelte-inspector/4.0.1_rnjcktydm4hfrrw6mjmmphadqy:
     resolution: {integrity: sha512-J/Nmb2Q2y7mck2hyCX4ckVHcR5tu2J+MtBEQqpDrrgELZ2uvraQcK/ioCV61AqkdXFgriksOKIceDcQmqnGhVw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22}
     peerDependencies:
@@ -932,27 +932,27 @@ packages:
       svelte: ^5.0.0
       vite: ^6.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3_svelte@5.25.5+vite@6.2.4
+      '@sveltejs/vite-plugin-svelte': 5.0.3_svelte@5.25.6+vite@6.2.4
       debug: 4.4.0
-      svelte: 5.25.5
+      svelte: 5.25.6
       vite: 6.2.4_rcwhyxjunlypzsc2hhyx6766oy
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/5.0.3_svelte@5.25.5+vite@6.2.4:
+  /@sveltejs/vite-plugin-svelte/5.0.3_svelte@5.25.6+vite@6.2.4:
     resolution: {integrity: sha512-MCFS6CrQDu1yGwspm4qtli0e63vaPCehf6V7pIMP15AsWgMKrqDGCPFF/0kn4SP0ii4aySu4Pa62+fIRGFMjgw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22}
     peerDependencies:
       svelte: ^5.0.0
       vite: ^6.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1_xj5qugu6hq6na25ilu5x5rmrru
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1_rnjcktydm4hfrrw6mjmmphadqy
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.15
-      svelte: 5.25.5
+      svelte: 5.25.6
       vite: 6.2.4_rcwhyxjunlypzsc2hhyx6766oy
       vitefu: 1.0.4_vite@6.2.4
     transitivePeerDependencies:
@@ -1304,8 +1304,8 @@ packages:
     resolution: {integrity: sha512-U9JedYYjCnadUlXk7e1Kr+aENQhtUaoaV9+gZm1T8LC/YBAPJx3NSPIAurFOC0U5vrdSevnUJS2/wUVxGwPhng==}
     dev: true
 
-  /esrap/1.4.3:
-    resolution: {integrity: sha512-Xddc1RsoFJ4z9nR7W7BFaEPIp4UXoeQ0+077UdWLxbafMQFyU79sQJMk7kxNgRwQ9/aVgaKacCHC2pUACGwmYw==}
+  /esrap/1.4.6:
+    resolution: {integrity: sha512-F/D2mADJ9SHY3IwksD4DAXjTt7qt7GWUf3/8RhCNWmC/67tyb55dpimHmy7EplakFaflV0R/PC+fdSPqrRHAQw==}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
@@ -1737,7 +1737,7 @@ packages:
     dev: true
     optional: true
 
-  /svelte-check/4.1.5_6ijsdwsosfszd5esp2wcghv2gy:
+  /svelte-check/4.1.5_ef2moelm46zg2lsgwprme4bh6i:
     resolution: {integrity: sha512-Gb0T2IqBNe1tLB9EB1Qh+LOe+JB8wt2/rNBDGvkxQVvk8vNeAoG+vZgFB/3P5+zC7RWlyBlzm9dVjZFph/maIg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
@@ -1750,13 +1750,13 @@ packages:
       fdir: 6.3.0
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.25.5
+      svelte: 5.25.6
       typescript: 5.8.2
     transitivePeerDependencies:
       - picomatch
     dev: true
 
-  /svelte-preprocess/6.0.3_etdsudpiuuvrbpohgw3mim3qtq:
+  /svelte-preprocess/6.0.3_b6iijb7nfwse5xajq5yx4hxz3q:
     resolution: {integrity: sha512-PLG2k05qHdhmRG7zR/dyo5qKvakhm8IJ+hD2eFRQmMLHp7X3eJnjeupUtvuRpbNiF31RjVw45W+abDwHEmP5OA==}
     engines: {node: '>= 18.0.0'}
     requiresBuild: true
@@ -1795,12 +1795,12 @@ packages:
         optional: true
     dependencies:
       sass: 1.86.1
-      svelte: 5.25.5
+      svelte: 5.25.6
       typescript: 5.8.2
     dev: true
 
-  /svelte/5.25.5:
-    resolution: {integrity: sha512-ULi9rkVWQJyJYZSpy6SIgSTchWadyWG1QYAUx3JAXL2gXrnhdXtoB20KmXGSNdtNyquq3eYd/gkwAkLcL5PGWw==}
+  /svelte/5.25.6:
+    resolution: {integrity: sha512-RGkaeAXDuJdvhA1fdSM5GgD++vYfJYijZL0uN6kM2s/TRJ663jktBhZlF0qjzAJGR/34PtaeT3G8MKJY1EKeqg==}
     engines: {node: '>=18'}
     dependencies:
       '@ampproject/remapping': 2.3.0
@@ -1812,7 +1812,7 @@ packages:
       axobject-query: 4.1.0
       clsx: 2.1.1
       esm-env: 1.2.1
-      esrap: 1.4.3
+      esrap: 1.4.6
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.15
