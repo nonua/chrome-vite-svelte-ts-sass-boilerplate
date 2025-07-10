@@ -5,7 +5,7 @@ specifiers:
   '@sveltejs/vite-plugin-svelte': 6.0.0
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.332
-  '@types/node': 22.16.2
+  '@types/node': 22.16.3
   prettier: 3.6.2
   sass: 1.89.2
   svelte: 5.35.5
@@ -20,7 +20,7 @@ devDependencies:
   '@sveltejs/vite-plugin-svelte': 6.0.0_svelte@5.35.5+vite@7.0.4
   '@tsconfig/svelte': 5.0.4
   '@types/chrome': 0.0.332
-  '@types/node': 22.16.2
+  '@types/node': 22.16.3
   prettier: 3.6.2
   sass: 1.89.2
   svelte: 5.35.5
@@ -28,7 +28,7 @@ devDependencies:
   svelte-preprocess: 6.0.3_cbce6t3rbt5tetvao2cvumrqmq
   tslib: 2.8.1
   typescript: 5.8.3
-  vite: 7.0.4_hxejxfjzl2inq2hla2hrn5eqcm
+  vite: 7.0.4_zrrvype5rgs5bptjh5wercx5r4
 
 packages:
 
@@ -659,7 +659,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 6.0.0_svelte@5.35.5+vite@7.0.4
       debug: 4.4.1
       svelte: 5.35.5
-      vite: 7.0.4_hxejxfjzl2inq2hla2hrn5eqcm
+      vite: 7.0.4_zrrvype5rgs5bptjh5wercx5r4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -677,7 +677,7 @@ packages:
       kleur: 4.1.5
       magic-string: 0.30.17
       svelte: 5.35.5
-      vite: 7.0.4_hxejxfjzl2inq2hla2hrn5eqcm
+      vite: 7.0.4_zrrvype5rgs5bptjh5wercx5r4
       vitefu: 1.1.1_vite@7.0.4
     transitivePeerDependencies:
       - supports-color
@@ -712,8 +712,8 @@ packages:
     resolution: {integrity: sha512-OP6L9VuZNdskgNN3zFQQ54ceYD8OLq5IbqO4VK91ORLfOm7WdT/CiT/pHEBSQEqCInJ2y3O6iCm/zGtPElpgJQ==}
     dev: true
 
-  /@types/node/22.16.2:
-    resolution: {integrity: sha512-Cdqa/eJTvt4fC4wmq1Mcc0CPUjp/Qy2FGqLza3z3pKymsI969TcZ54diNJv8UYUgeWxyb8FSbCkhdR6WqmUFhA==}
+  /@types/node/22.16.3:
+    resolution: {integrity: sha512-sr4Xz74KOUeYadexo1r8imhRtlVXcs+j3XK3TcoiYk7B1t3YRVJgtaD3cwX73NYb71pmVuMLNRhJ9XKdoDB74g==}
     dependencies:
       undici-types: 6.21.0
     dev: true
@@ -1354,7 +1354,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /vite/7.0.4_hxejxfjzl2inq2hla2hrn5eqcm:
+  /vite/7.0.4_zrrvype5rgs5bptjh5wercx5r4:
     resolution: {integrity: sha512-SkaSguuS7nnmV7mfJ8l81JGBFV7Gvzp8IzgE8A8t23+AxuNX61Q5H1Tpz5efduSN7NHC8nQXD3sKQKZAu5mNEA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
@@ -1394,7 +1394,7 @@ packages:
       yaml:
         optional: true
     dependencies:
-      '@types/node': 22.16.2
+      '@types/node': 22.16.3
       esbuild: 0.25.0
       fdir: 6.4.6_picomatch@4.0.2
       picomatch: 4.0.2
@@ -1414,7 +1414,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 7.0.4_hxejxfjzl2inq2hla2hrn5eqcm
+      vite: 7.0.4_zrrvype5rgs5bptjh5wercx5r4
     dev: true
 
   /zimmerframe/1.1.2:
