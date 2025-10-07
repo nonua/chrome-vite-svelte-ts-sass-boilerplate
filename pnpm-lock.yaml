@@ -8,7 +8,7 @@ specifiers:
   '@types/node': 22.18.8
   prettier: 3.6.2
   sass: 1.93.2
-  svelte: 5.39.9
+  svelte: 5.39.10
   svelte-check: 4.3.2
   svelte-preprocess: 6.0.3
   tslib: 2.8.1
@@ -17,15 +17,15 @@ specifiers:
 
 devDependencies:
   '@crxjs/vite-plugin': 2.2.0
-  '@sveltejs/vite-plugin-svelte': 6.2.1_svelte@5.39.9+vite@7.1.9
+  '@sveltejs/vite-plugin-svelte': 6.2.1_svelte@5.39.10+vite@7.1.9
   '@tsconfig/svelte': 5.0.5
   '@types/chrome': 0.1.22
   '@types/node': 22.18.8
   prettier: 3.6.2
   sass: 1.93.2
-  svelte: 5.39.9
-  svelte-check: 4.3.2_zxvi4ggkuzvbhbkpdvglzhjnum
-  svelte-preprocess: 6.0.3_mv6jj6lbjukraq3ael2qcc7are
+  svelte: 5.39.10
+  svelte-check: 4.3.2_33wms3m4lvnk4wuycpo5jhx2gu
+  svelte-preprocess: 6.0.3_qci3dgfqzr7h2c644ie5gc2my4
   tslib: 2.8.1
   typescript: 5.9.3
   vite: 7.1.9_473npper34s32fqtfc42rnbmma
@@ -647,7 +647,7 @@ packages:
       acorn: 8.13.0
     dev: true
 
-  /@sveltejs/vite-plugin-svelte-inspector/5.0.0_zxngeu4vzpsenk7fr54meprtfq:
+  /@sveltejs/vite-plugin-svelte-inspector/5.0.0_ri74kkdok2efxixkamqpaqh7qu:
     resolution: {integrity: sha512-iwQ8Z4ET6ZFSt/gC+tVfcsSBHwsqc6RumSaiLUkAurW3BCpJam65cmHw0oOlDMTO0u+PZi9hilBRYN+LZNHTUQ==}
     engines: {node: ^20.19 || ^22.12 || >=24}
     peerDependencies:
@@ -655,26 +655,26 @@ packages:
       svelte: ^5.0.0
       vite: ^6.3.0 || ^7.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.1_svelte@5.39.9+vite@7.1.9
+      '@sveltejs/vite-plugin-svelte': 6.2.1_svelte@5.39.10+vite@7.1.9
       debug: 4.4.1
-      svelte: 5.39.9
+      svelte: 5.39.10
       vite: 7.1.9_473npper34s32fqtfc42rnbmma
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/6.2.1_svelte@5.39.9+vite@7.1.9:
+  /@sveltejs/vite-plugin-svelte/6.2.1_svelte@5.39.10+vite@7.1.9:
     resolution: {integrity: sha512-YZs/OSKOQAQCnJvM/P+F1URotNnYNeU3P2s4oIpzm1uFaqUEqRxUB0g5ejMjEb5Gjb9/PiBI5Ktrq4rUUF8UVQ==}
     engines: {node: ^20.19 || ^22.12 || >=24}
     peerDependencies:
       svelte: ^5.0.0
       vite: ^6.3.0 || ^7.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 5.0.0_zxngeu4vzpsenk7fr54meprtfq
+      '@sveltejs/vite-plugin-svelte-inspector': 5.0.0_ri74kkdok2efxixkamqpaqh7qu
       debug: 4.4.1
       deepmerge: 4.3.1
       magic-string: 0.30.17
-      svelte: 5.39.9
+      svelte: 5.39.10
       vite: 7.1.9_473npper34s32fqtfc42rnbmma
       vitefu: 1.1.1_vite@7.1.9
     transitivePeerDependencies:
@@ -1233,7 +1233,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /svelte-check/4.3.2_zxvi4ggkuzvbhbkpdvglzhjnum:
+  /svelte-check/4.3.2_33wms3m4lvnk4wuycpo5jhx2gu:
     resolution: {integrity: sha512-71udP5w2kaSTcX8iV0hn3o2FWlabQHhJTJLIQrCqMsrcOeDUO2VhCQKKCA8AMVHSPwdxLEWkUWh9OKxns5PD9w==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
@@ -1246,13 +1246,13 @@ packages:
       fdir: 6.5.0
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.39.9
+      svelte: 5.39.10
       typescript: 5.9.3
     transitivePeerDependencies:
       - picomatch
     dev: true
 
-  /svelte-preprocess/6.0.3_mv6jj6lbjukraq3ael2qcc7are:
+  /svelte-preprocess/6.0.3_qci3dgfqzr7h2c644ie5gc2my4:
     resolution: {integrity: sha512-PLG2k05qHdhmRG7zR/dyo5qKvakhm8IJ+hD2eFRQmMLHp7X3eJnjeupUtvuRpbNiF31RjVw45W+abDwHEmP5OA==}
     engines: {node: '>= 18.0.0'}
     requiresBuild: true
@@ -1291,12 +1291,12 @@ packages:
         optional: true
     dependencies:
       sass: 1.93.2
-      svelte: 5.39.9
+      svelte: 5.39.10
       typescript: 5.9.3
     dev: true
 
-  /svelte/5.39.9:
-    resolution: {integrity: sha512-sVOie0sbU9F/Lh0IoUfaq9hLzujRKxiL7xTMbG0y8ROx/qErtbfmm6sLSlJUbUMW4NcIgqHQPFiHX4LakA8fzA==}
+  /svelte/5.39.10:
+    resolution: {integrity: sha512-Q3gqCGIgl4r0CR7OaWYjVo22nqFmLLSfn1MiWNFaITamvqhGBD3kyqk51EKuO4Nd1z8QliO5KIz7a2Ka9Rxilw==}
     engines: {node: '>=18'}
     dependencies:
       '@jridgewell/remapping': 2.3.4
