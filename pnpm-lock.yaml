@@ -9,7 +9,7 @@ specifiers:
   prettier: 3.8.1
   sass: 1.97.3
   svelte: 5.53.7
-  svelte-check: 4.4.3
+  svelte-check: 4.4.4
   svelte-preprocess: 6.0.3
   tslib: 2.8.1
   typescript: 5.9.3
@@ -24,7 +24,7 @@ devDependencies:
   prettier: 3.8.1
   sass: 1.97.3
   svelte: 5.53.7
-  svelte-check: 4.4.3_k6b5v5cjqmmk3i53e3cdme55d4
+  svelte-check: 4.4.4_k6b5v5cjqmmk3i53e3cdme55d4
   svelte-preprocess: 6.0.3_od4fg2sqdomcapdsevhnvxsh7m
   tslib: 2.8.1
   typescript: 5.9.3
@@ -1261,8 +1261,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /svelte-check/4.4.3_k6b5v5cjqmmk3i53e3cdme55d4:
-    resolution: {integrity: sha512-4HtdEv2hOoLCEsSXI+RDELk9okP/4sImWa7X02OjMFFOWeSdFF3NFy3vqpw0z+eH9C88J9vxZfUXz/Uv2A1ANw==}
+  /svelte-check/4.4.4_k6b5v5cjqmmk3i53e3cdme55d4:
+    resolution: {integrity: sha512-F1pGqXc710Oi/wTI4d/x7d6lgPwwfx1U6w3Q35n4xsC2e8C/yN2sM1+mWxjlMcpAfWucjlq4vPi+P4FZ8a14sQ==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
