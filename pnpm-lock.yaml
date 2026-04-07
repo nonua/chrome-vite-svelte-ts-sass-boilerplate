@@ -7,7 +7,7 @@ specifiers:
   '@types/chrome': 0.1.39
   '@types/node': 24.12.2
   prettier: 3.8.1
-  sass: 1.98.0
+  sass: 1.99.0
   svelte: 5.55.1
   svelte-check: 4.4.6
   svelte-preprocess: 6.0.3
@@ -22,13 +22,13 @@ devDependencies:
   '@types/chrome': 0.1.39
   '@types/node': 24.12.2
   prettier: 3.8.1
-  sass: 1.98.0
+  sass: 1.99.0
   svelte: 5.55.1
   svelte-check: 4.4.6_yhh4heyhj2zykrbirwmjrf2nnq
-  svelte-preprocess: 6.0.3_bpbpvvqcjooc44tsn4fe2qjtpa
+  svelte-preprocess: 6.0.3_2bvtpydzhimwqkiekyukxxeibe
   tslib: 2.8.1
   typescript: 6.0.2
-  vite: 8.0.5_gvwppotp46b74olgvq7dyo6h2a
+  vite: 8.0.5_ktyzgjjhqft72z22twxfmye4n4
 
 packages:
 
@@ -53,7 +53,7 @@ packages:
       react-refresh: 0.13.0
       rollup: 2.79.2
       rxjs: 7.5.7
-      vite: 8.0.5_gvwppotp46b74olgvq7dyo6h2a
+      vite: 8.0.5_ktyzgjjhqft72z22twxfmye4n4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -455,7 +455,7 @@ packages:
       magic-string: 0.30.21
       obug: 2.1.1
       svelte: 5.55.1
-      vite: 8.0.5_gvwppotp46b74olgvq7dyo6h2a
+      vite: 8.0.5_ktyzgjjhqft72z22twxfmye4n4
       vitefu: 1.1.2_vite@8.0.5
     dev: true
 
@@ -1070,8 +1070,8 @@ packages:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
     dev: true
 
-  /sass/1.98.0:
-    resolution: {integrity: sha512-+4N/u9dZ4PrgzGgPlKnaaRQx64RO0JBKs9sDhQ2pLgN6JQZ25uPQZKQYaBJU48Kd5BxgXoJ4e09Dq7nMcOUW3A==}
+  /sass/1.99.0:
+    resolution: {integrity: sha512-kgW13M54DUB7IsIRM5LvJkNlpH+WhMpooUcaWGFARkF1Tc82v9mIWkCbCYf+MBvpIUBSeSOTilpZjEPr2VYE6Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -1106,7 +1106,7 @@ packages:
       - picomatch
     dev: true
 
-  /svelte-preprocess/6.0.3_bpbpvvqcjooc44tsn4fe2qjtpa:
+  /svelte-preprocess/6.0.3_2bvtpydzhimwqkiekyukxxeibe:
     resolution: {integrity: sha512-PLG2k05qHdhmRG7zR/dyo5qKvakhm8IJ+hD2eFRQmMLHp7X3eJnjeupUtvuRpbNiF31RjVw45W+abDwHEmP5OA==}
     engines: {node: '>= 18.0.0'}
     requiresBuild: true
@@ -1144,7 +1144,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      sass: 1.98.0
+      sass: 1.99.0
       svelte: 5.55.1
       typescript: 6.0.2
     dev: true
@@ -1205,7 +1205,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /vite/8.0.5_gvwppotp46b74olgvq7dyo6h2a:
+  /vite/8.0.5_ktyzgjjhqft72z22twxfmye4n4:
     resolution: {integrity: sha512-nmu43Qvq9UopTRfMx2jOYW5l16pb3iDC1JH6yMuPkpVbzK0k+L7dfsEDH4jRgYFmsg0sTAqkojoZgzLMlwHsCQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
@@ -1253,7 +1253,7 @@ packages:
       picomatch: 4.0.4
       postcss: 8.5.8
       rolldown: 1.0.0-rc.12
-      sass: 1.98.0
+      sass: 1.99.0
       tinyglobby: 0.2.15
     optionalDependencies:
       fsevents: 2.3.3
@@ -1267,7 +1267,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 8.0.5_gvwppotp46b74olgvq7dyo6h2a
+      vite: 8.0.5_ktyzgjjhqft72z22twxfmye4n4
     dev: true
 
   /zimmerframe/1.1.2:
