@@ -6,7 +6,7 @@ specifiers:
   '@tsconfig/svelte': 5.0.8
   '@types/chrome': 0.1.40
   '@types/node': 24.12.2
-  prettier: 3.8.2
+  prettier: 3.8.3
   sass: 1.99.0
   svelte: 5.55.5
   svelte-check: 4.4.6
@@ -21,7 +21,7 @@ devDependencies:
   '@tsconfig/svelte': 5.0.8
   '@types/chrome': 0.1.40
   '@types/node': 24.12.2
-  prettier: 3.8.2
+  prettier: 3.8.3
   sass: 1.99.0
   svelte: 5.55.5
   svelte-check: 4.4.6_bx2dxm45taymosd2elh77unexq
@@ -994,8 +994,8 @@ packages:
       source-map-js: 1.2.1
     dev: true
 
-  /prettier/3.8.2:
-    resolution: {integrity: sha512-8c3mgTe0ASwWAJK+78dpviD+A8EqhndQPUBpNUIPt6+xWlIigCwfN01lWr9MAede4uqXGTEKeQWTvzb3vjia0Q==}
+  /prettier/3.8.3:
+    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true

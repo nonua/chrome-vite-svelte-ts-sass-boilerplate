@@ -14,7 +14,7 @@
     "@tsconfig/svelte": "5.0.8",
     "@types/chrome": "0.1.40",
     "@types/node": "24.12.2",
-    "prettier": "3.8.2",
+    "prettier": "3.8.3",
     "sass": "1.99.0",
     "svelte": "5.55.5",
     "svelte-check": "4.4.6",
